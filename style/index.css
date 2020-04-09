@@ -1,1 +1,181 @@
+
+
+
+/* LESS needs to be processed */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 /* Add CSS styling here */
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1:hover{
+  color:#00BFFF;
+}
+
+.container{
+  background-color: #9370DB;
+
+
+}
+
+/* navigation section */
+nav{
+  display: flex;
+  text-align: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  
+  
+}
+ 
+/* a tag links */
+header nav a{
+  color:#000;
+  text-decoration: none;
+  padding: 5px 10px;
+  
+
+}
+
+header nav a:hover{
+  color: #00BFFF;
+  text-transform: uppercase;
+}
+
+.group-one{
+  display:flex;
+  
+}
+
+.group-one img{
+max-width: 50%;
+
+}
+
+.about{
+  border: 2px solid black;
+  background-color:#00FFFF;
+  border-radius: 30px;
+  padding:20px;
+  max-width: 50%;
+  font-family: fantasy;
+}
+
+.gallery{
+ display:flex;
+ flex-direction: row nowrap;
+ justify-content: space-between;
+ margin-top: 60px;
+
+
+}
+
+.navbar{
+  display:flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+footer .navbar{
+color:#FF0000;
+
+}
+
+@media(max-width:550px) {
+}
+  
+
